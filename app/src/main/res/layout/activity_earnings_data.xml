@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/currentDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Day: 06/15/2023"
+        android:textSize="18sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentDateTextView"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount Earned:" />
+
+            <TextView
+                android:id="@+id/amountEarnedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="250.50" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expenses:" />
+
+            <TextView
+                android:id="@+id/expensesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50.75" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miles Driven:" />
+
+            <TextView
+                android:id="@+id/milesDrivenTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120.0" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Net Earnings:" />
+
+            <TextView
+                android:id="@+id/netEarningsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="199.75" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

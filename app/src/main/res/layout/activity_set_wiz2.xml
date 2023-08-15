@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBoxDoorDash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DoorDash"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUberEats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UberEats"
+        android:layout_below="@id/checkBoxDoorDash"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUberDrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UberDrive"
+        android:layout_below="@id/checkBoxUberEats"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRoadie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roadie"
+        android:layout_below="@id/checkBoxUberDrive"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSpark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spark"
+        android:layout_below="@id/checkBoxRoadie"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInstacart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instacart"
+        android:layout_below="@id/checkBoxSpark"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxGrubHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GrubHub"
+        android:layout_below="@id/checkBoxInstacart"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/checkBoxGrubHub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

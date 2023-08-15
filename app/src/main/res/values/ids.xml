@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewDate" type="id" />
+    <item name="expenseDescriptionEditText" type="id" />
+    <item name="expenseDescriptionLabel" type="id" />
+    <item name="expenseAmountEditText" type="id" />
+    <item name="expenseAmountLabel" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="updateTextView" type="id" />
+    <item name="currentInputEditText" type="id" />
+    <item name="editMileageButton" type="id" />
+    <item name="confirmButton" type="id" />
+    <item name="mileageTextView" type="id" />
+    <item name="totalTextView" type="id" />
+    <item name="expensesForDayTextView" type="id" />
+    <item name="dataTableLayout" type="id" />
+    <item name="reviewTitleTextView" type="id" />
+    <item name="tableLayout" type="id" />
+    <item name="netTotalTextView" type="id" />
+    <item name="gigAppsListTextView" type="id" />
+    <item name="currentInputContainer" type="id" />
+    <item name="updateButton" type="id" />
+    <item name="endDayButton" type="id" />
+    <item name="gigAppTableLayout" type="id" />
+</resources>

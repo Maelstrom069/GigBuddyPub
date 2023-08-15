@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- List of Gig Apps with checkboxes -->
+    <CheckBox
+        android:id="@+id/checkBoxApp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gig App 1" />
+
+    <CheckBox
+        android:id="@+id/checkBoxApp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gig App 2" />
+
+    <!-- Add more checkboxes for other Gig Apps -->
+
+    <!-- Save and Cancel buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
